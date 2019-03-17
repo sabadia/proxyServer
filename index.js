@@ -22,3 +22,5 @@ proxyServer.on('ready', () => { console.log( "Listening on " + server_ip_address
 proxyServer.on('error', (e) => { /* */ })
 
 proxyServer.start();
+
+console.log( "Listening on " + server_ip_address + ", port " + server_port )
